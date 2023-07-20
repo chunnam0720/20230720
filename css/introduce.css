@@ -12,12 +12,12 @@ a {
 /* header */
 header {
     display: flex;
-    width: 100%;
+    width: 1100px;
     margin: 20px auto;
     position: relative;
 }
 header .inner-header{
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -25,18 +25,16 @@ header .inner-header{
 header .inner-header .gnb {
     display: flex;
     justify-content: space-evenly;
-    flex: 2;
+    flex: 1;
 }
 header .inner-header .gnb ul {
+    width: 100%;
     display: flex;   
 }
 header .inner-header .gnb ul li {
-    margin-left: 50px;
     border-left: 1px solid #9b9a9a;
-    padding-left: 50px;
-    display: flex;
-    align-items: center;
-    position: relative;
+    width: 100px;
+    text-align: center;
 }
 header .inner-header .gnb ul li a{
     width: 100%;
@@ -45,7 +43,7 @@ header .inner-header .gnb ul .cleaerLine {
     border-left: none;
 }
 header .inner-header .logo{
-    flex: 1;
+    flex: 4;
 }
 header .inner-header .logo img{
     width: 150px;
