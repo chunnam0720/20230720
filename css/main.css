@@ -1,4 +1,5 @@
-@import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
+/* reset css and import header, footer */
+@import url(base.css);
 
 * {
     box-sizing: border-box;
