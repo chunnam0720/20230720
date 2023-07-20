@@ -1,0 +1,45 @@
+/* reset css */
+@import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
+* {
+    box-sizing: border-box;
+  }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* header */
+header {
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+    position: relative;
+}
+footer{
+    color: #9b9a9a;
+    margin: 20px auto;
+    align-items: center;
+    width: 75%;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    font-size: 15px;
+}
+footer .wrap-Footer{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+footer .wrap-Footer {
+    color: red;
+    font-weight: 700;
+    border-right: 1px solid #9b9a9a;
+    padding-right: 20px;
+}
+footer div .line1 a:hover {
+    border-bottom: 1px solid #000;
+}
+
+footer div .line2{
+    text-align: right;
+}
