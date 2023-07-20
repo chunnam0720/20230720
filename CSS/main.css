@@ -1,5 +1,4 @@
-/* reset css */
-@import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
+
 * {
     box-sizing: border-box;
   }
@@ -7,13 +6,99 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
 /* header */
 header {
     display: flex;
-    width: 70%;
-    margin: 10px auto;
+    width: 1100px;
+    margin: 20px auto;
     position: relative;
 }
+header .layout{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+header .layout .wrap-hearder {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+}
+header .wrap-hearder .Main-Menu {
+    width: 100%;
+    display: flex;   
+}
+header .wrap-hearder .Main-Menu ul li {
+    border-left: 1px solid #9b9a9a;
+    width: 100px;
+    text-align: center;
+}
+header .wrap-hearder .Main-Menu ul li a{
+    width: 100%;
+}
+header .wrap-hearder .Main-Menu ul .img-box {
+    border-left: none;
+}
+header .wrap-hearder  .img-box{
+    flex: 4;
+}
+header .wrap-hearder  .img-box{
+    width: 150px;
+    height: 50px;
+}
+/* contents
+body .topIMG{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+body .topIMG img{
+    width: 90%;
+}
+body .main{
+    border: 1px solid #9b9a9a; 
+    width: 70%;
+    margin: 20px auto;
+    
+}
+body .main .text{
+    margin: 5%;
+    line-height: 1.3;
+}
+body .main .text h1{
+    font-size: 2em;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+body .main h2{
+    margin: 10px 0px 20px 50px;
+    font-size: 1.5em;
+}
+body .main h2 span{
+    padding-top: 15px;
+    border-top: 1.5px solid #000;
+}
+body .main .text p{
+    font-size: 1.1em;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+body .main .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+body .main .content img{
+    width: 90%;
+    background: #000;
+
+} */
+
+/* footer */
 footer{
     color: #9b9a9a;
     margin: 20px auto;
@@ -24,13 +109,13 @@ footer{
     position: relative;
     font-size: 15px;
 }
-footer .wrap-Footer{
+footer div{
     align-items: center;
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
-footer .wrap-Footer {
+footer div .line1 .linkPrivacy {
     color: red;
     font-weight: 700;
     border-right: 1px solid #9b9a9a;
@@ -43,3 +128,6 @@ footer div .line1 a:hover {
 footer div .line2{
     text-align: right;
 }
+
+
+
