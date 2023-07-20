@@ -109,19 +109,19 @@ footer{
     position: relative;
     font-size: 15px;
 }
-footer div{
+footer .link-Privacy{
     align-items: center;
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
-footer div .line1 .linkPrivacy {
+footer .linkPrivacy .add-ress{
     color: red;
     font-weight: 700;
     border-right: 1px solid #9b9a9a;
     padding-right: 20px;
 }
-footer div .line1 a:hover {
+footer .linkPrivacy .add-ress .title:hover {
     border-bottom: 1px solid #000;
 }
 
