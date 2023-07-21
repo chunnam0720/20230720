@@ -29,11 +29,12 @@ header .inner-header {
 
 header .inner-header .gnb {
     display: flex;
-    justify-content: space-evenly;
+    position: relative;
+    justify-content: space-between;
     flex: 1;
 }
 
-header .inner-header .gnb ul {
+/* header .inner-header .gnb ul {
     width: 100%;
     display: flex;
 }
@@ -50,10 +51,50 @@ header .inner-header .gnb ul li a {
 
 header .inner-header .gnb ul .cleaerLine {
     border-left: none;
+} */ 
+.gnb:after{
+    display:block;
+    content:'';
+    clear:both;
+    
+}
+.gnb a {
+    text-align: center;
+}
+.gnb li{
+    position:relative;
+    float:left;
+    margin-right:5px;
+    z-index: 1000;
+}
+.gnb li a{
+    display:block;
+    padding:0 15px;
+    background:#ffffff;
+    height:40px;
+    line-height:40px;
+    width: 150px;
+}
+.gnb li:hover .depth_1 {
+    display:block;
+}
+.gnb .depth_1{
+    display:none;
+    position:absolute;
+    left:0;
+    right:0;
+    text-align:center;
+}
+.gnb .depth_1 a{
+    display:block; 
+    padding:5px; 
+
 }
 
+
+
 header .inner-header .logo {
-    flex: 4;
+    flex: 1;
 }
 
 header .inner-header .logo img {
