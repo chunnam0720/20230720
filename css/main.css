@@ -37,7 +37,7 @@ body {
     position: relative;
     text-decoration: none;
     padding: 30px 40px;
-    border: 1px solid gray;
+    border: 1px solid rgb(235, 235, 235);
 }
 
 .MainContent .row.no-margin a{
