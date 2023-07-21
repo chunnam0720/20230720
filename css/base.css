@@ -17,6 +17,7 @@ header {
     min-height: 410px;
     min-width: 1100px;
     margin: 0 auto;
+    line-height: 1.5;
 }
 
 header .inner-header {
@@ -46,29 +47,38 @@ header .inner-header .gnb ul li a {
     width: 100%;
 }
 
-.gnb:after{
-    display:block;
-    content:'';
-    clear:both;
-
+.gnb>li:first-child {
+    height: 15px;
+    top: 15px;
 }
+
 .gnb a {
     text-align: center;
     font-weight: 700;
+}
+.gnb .mainMenu {
+    top: 15px;
+}
+.gnb>li + li::before {
+    display: block;
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: #c7c7c7;
+    top: 15px;
+    position: relative;
 }
 .gnb li{
     position:relative;
     float:left;
     justify-content: center;
-    margin-right:5px;
     z-index: 1000;
 }
 .gnb li a{
-    display:block;
+    display:flex;
+    justify-content: center;
     padding:0 15px;
     background:#ffffff;
-    height:40px;
-    line-height:40px;
     width: 150px;
 }
 .gnb li:hover .depth_1 {
@@ -94,24 +104,31 @@ header .inner-header .gnb ul li a {
     text-align: left;
     display:block; 
     padding: 0;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 .gnb .depth_1 li {
+    margin: 0;
     line-height: 1.5;
 }
 
 .gnb .depth_1 li span {
+    padding-top: 15px;
     float: left;
     font-weight: 700;
     font-size: 14px;
 }
 
 .gnb .depth_1 li .depth_2 li {
+    margin: 0;
     color: #9b9a9a;
     text-align: left;
 }
 
-.gnb .depth_1 li .depth_2 li::before{
+.gnb .depth_1 li .depth_2 li a {
+    padding: 0;
+}
+
+.gnb .depth_1 li .depth_2 li a::before{
     content: "- ";
 }
 
