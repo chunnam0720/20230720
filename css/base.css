@@ -152,7 +152,6 @@ header .slider img {
     /* background:cyan; */
     color: #D8D8D8;
     width: 100%;
-
     text-align: right;
 } 
 .content .device-width .h1{
@@ -165,7 +164,10 @@ header .slider img {
    
 }
 .content .device-width .i{
-    width: 350px;
+    width: 450px;
+    height: 350px;
+    float: right;
+    
 }
 .content .tab .active{
     background: #575d83;
@@ -192,10 +194,11 @@ header .slider img {
     /* margin-bottom: 35px; */
 }
 .wrap-Content .img02{
-    width: 70%;
-    height: 70%;
+    width: 90%;
+    height: 80%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+  
 }
 /* footer */
 .Footer {
