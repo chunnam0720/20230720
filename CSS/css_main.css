@@ -1,0 +1,52 @@
+@import url(../CSS/base.css);
+
+/* contents
+body .topIMG{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+body .topIMG img{
+    width: 90%;
+}
+body .main{
+    border: 1px solid #9b9a9a; 
+    width: 70%;
+    margin: 20px auto;
+    
+}
+body .main .text{
+    margin: 5%;
+    line-height: 1.3;
+}
+body .main .text h1{
+    font-size: 2em;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+body .main h2{
+    margin: 10px 0px 20px 50px;
+    font-size: 1.5em;
+}
+body .main h2 span{
+    padding-top: 15px;
+    border-top: 1.5px solid #000;
+}
+body .main .text p{
+    font-size: 1.1em;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+body .main .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+body .main .content img{
+    width: 90%;
+    background: #000;
+
+} */
