@@ -6,6 +6,10 @@
     font-family: 'Noto Sans KR', '돋움', Dotum;
 }
 
+header {
+    height: 600px;
+}
+
 body {
     position: relative;
     max-width: 1920px;
