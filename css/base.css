@@ -9,8 +9,6 @@ a {
     color: inherit;
     text-decoration: none;
 }
-
-/* header */
 header {
     display: block;
     height: 600px;
@@ -47,11 +45,17 @@ header .inner-header .gnb ul li a {
     width: 100%;
 }
 
+
+.gnb:after{
+    display:block;
+    content:'';
+    clear:both;
+
+}
 .gnb>li:first-child {
     height: 15px;
     top: 15px;
 }
-
 .gnb a {
     text-align: center;
     font-weight: 700;
@@ -123,7 +127,6 @@ header .inner-header .gnb ul li a {
     color: #9b9a9a;
     text-align: left;
 }
-
 .gnb .depth_1 li .depth_2 li a {
     padding: 0;
 }
@@ -196,5 +199,7 @@ footer div .line1 a:hover {
 
 footer div .line2 {
     width: 100%;
+
     text-align: right;
 }
+
