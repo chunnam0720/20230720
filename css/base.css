@@ -1,7 +1,7 @@
 /* reset css */
 @import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
-/* css */
 
+/* css */
 * {
     box-sizing: border-box;
   }
@@ -13,7 +13,7 @@ a {
 /* header */
 header {
     display: block;
-    height: 300px;
+    height: 400px;
     min-height: 410px;
     min-width: 1100px;
     margin: 0 auto;
@@ -29,18 +29,15 @@ header .inner-header {
 
 header .inner-header .gnb {
     display: flex;
-    position: relative;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex: 1;
 }
 
-/* header .inner-header .gnb ul {
+header .inner-header .gnb ul {
     width: 100%;
-    display: flex;
 }
 
 header .inner-header .gnb ul li {
-    border-left: 1px solid #9b9a9a;
     width: 100px;
     text-align: center;
 }
@@ -49,21 +46,20 @@ header .inner-header .gnb ul li a {
     width: 100%;
 }
 
-header .inner-header .gnb ul .cleaerLine {
-    border-left: none;
-} */ 
 .gnb:after{
     display:block;
     content:'';
     clear:both;
-    
+
 }
 .gnb a {
     text-align: center;
+    font-weight: 700;
 }
 .gnb li{
     position:relative;
     float:left;
+    justify-content: center;
     margin-right:5px;
     z-index: 1000;
 }
@@ -78,20 +74,50 @@ header .inner-header .gnb ul .cleaerLine {
 .gnb li:hover .depth_1 {
     display:block;
 }
+.gnb li ul {
+    font-size: 12px;
+}
+
 .gnb .depth_1{
     display:none;
     position:absolute;
     left:0;
     right:0;
     text-align:center;
+    padding: 0px 25px 15px;
+    background: #fff;
+    border: 1px solid #9b9a9a;
+    border-top: none;
 }
 .gnb .depth_1 a{
+    font-weight: normal;
+    text-align: left;
     display:block; 
-    padding:5px; 
-
+    padding: 0;
+    padding-top: 5px;
+}
+.gnb .depth_1 li {
+    line-height: 1.5;
 }
 
+.gnb .depth_1 li span {
+    float: left;
+    font-weight: 700;
+    font-size: 14px;
+}
 
+.gnb .depth_1 li .depth_2 li {
+    color: #9b9a9a;
+    text-align: left;
+}
+
+.gnb .depth_1 li .depth_2 li::before{
+    content: "- ";
+}
+
+header .inner-header .gnb ul .cleaerLine {
+    border-left: none;
+}
 
 header .inner-header .logo {
     flex: 1;
@@ -131,13 +157,13 @@ header .slider img {
 }
 
 footer div {
-    margin-top: 20px;
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
+
 footer div .line1 {
-    width: 50%;
+    width: 100%;
 }
 
 footer div .line1 .linkPrivacy {
@@ -152,6 +178,5 @@ footer div .line1 a:hover {
 }
 
 footer div .line2 {
-    width: 50%;
-    text-align: right;
-}
+    width: 100%;
+    text-align
