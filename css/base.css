@@ -54,6 +54,7 @@ header .inner-header .gnb ul li a {
 }
 .gnb a {
     text-align: center;
+    font-weight: 700;
 }
 .gnb li{
     position:relative;
@@ -73,6 +74,9 @@ header .inner-header .gnb ul li a {
 .gnb li:hover .depth_1 {
     display:block;
 }
+.gnb li ul {
+    font-size: 12px;
+}
 
 .gnb .depth_1{
     display:none;
@@ -82,12 +86,33 @@ header .inner-header .gnb ul li a {
     text-align:center;
     padding: 0px 25px 15px;
     background: #fff;
-    border: 1px solid gray;
+    border: 1px solid #9b9a9a;
     border-top: none;
 }
 .gnb .depth_1 a{
+    font-weight: normal;
+    text-align: left;
     display:block; 
-    padding:5px;
+    padding: 0;
+    padding-top: 5px;
+}
+.gnb .depth_1 li {
+    line-height: 1.5;
+}
+
+.gnb .depth_1 li span {
+    float: left;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.gnb .depth_1 li .depth_2 li {
+    color: #9b9a9a;
+    text-align: left;
+}
+
+.gnb .depth_1 li .depth_2 li::before{
+    content: "- ";
 }
 
 header .inner-header .gnb ul .cleaerLine {
