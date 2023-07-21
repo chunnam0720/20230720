@@ -90,8 +90,13 @@ header .slider img {
 }
 
 footer div {
+    display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+footer div .line1 {
+    width: 100%;
 }
 
 footer div .line1 .linkPrivacy {
