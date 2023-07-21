@@ -35,11 +35,9 @@ header .inner-header .gnb {
 
 header .inner-header .gnb ul {
     width: 100%;
-    display: flex;
 }
 
 header .inner-header .gnb ul li {
-    border-left: 1px solid #9b9a9a;
     width: 100px;
     text-align: center;
 }
@@ -48,12 +46,56 @@ header .inner-header .gnb ul li a {
     width: 100%;
 }
 
+.gnb:after{
+    display:block;
+    content:'';
+    clear:both;
+
+}
+.gnb a {
+    text-align: center;
+}
+.gnb li{
+    position:relative;
+    float:left;
+    justify-content: center;
+    margin-right:5px;
+    z-index: 1000;
+}
+.gnb li a{
+    display:block;
+    padding:0 15px;
+    background:#ffffff;
+    height:40px;
+    line-height:40px;
+    width: 150px;
+}
+.gnb li:hover .depth_1 {
+    display:block;
+}
+
+.gnb .depth_1{
+    display:none;
+    position:absolute;
+    left:0;
+    right:0;
+    text-align:center;
+    padding: 0px 25px 15px;
+    background: #fff;
+    border: 1px solid gray;
+    border-top: none;
+}
+.gnb .depth_1 a{
+    display:block; 
+    padding:5px;
+}
+
 header .inner-header .gnb ul .cleaerLine {
     border-left: none;
 }
 
 header .inner-header .logo {
-    flex: 4;
+    flex: 1;
 }
 
 header .inner-header .logo img {
