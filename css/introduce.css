@@ -2,7 +2,7 @@
 @import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
 /* base css */
 @import url(./base.css);
-/* css */
+
 
 * {
     box-sizing: border-box;
@@ -27,6 +27,7 @@ header .inner-header{
 header .inner-header .gnb {
     display: flex;
     justify-content: space-evenly;
+
     flex: 1;
 }
 header .inner-header .gnb ul {
@@ -37,6 +38,7 @@ header .inner-header .gnb ul li {
     border-left: 1px solid #9b9a9a;
     width: 100px;
     text-align: center;
+
 }
 header .inner-header .gnb ul li a{
     width: 100%;
@@ -74,12 +76,14 @@ body .main .text{
 }
 body .main .text h1{
     font-size: 2.5em;
+
     line-height: 1.3;
     margin-bottom: 30px;
 }
 body .main h2{
     margin: 10px 0px 20px 50px;
     font-size: 2em;
+
 }
 body .main h2 span{
     padding-top: 15px;
@@ -103,8 +107,8 @@ body .main .content img{
 }
 
 
+/* footer */
 
-/* footer
 footer{
     color: #9b9a9a;
     margin: 20px auto;
@@ -133,4 +137,5 @@ footer div .line1 a:hover {
 
 footer div .line2{
     text-align: right;
-} */
+} 
+
