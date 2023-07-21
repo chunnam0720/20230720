@@ -1,10 +1,6 @@
 /* reset css */
 @import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Noto+Sans+KR:wght@400;700&display=swap');
-=======
-
->>>>>>> 7b90471d234c3b14926bed74f578ae09616ba470
 /* css */
 * {
     
@@ -15,11 +11,6 @@ a {
     color: inherit;
     text-decoration: none;
 }
-<<<<<<< HEAD
-/* header */
-/* header */
-=======
->>>>>>> 7b90471d234c3b14926bed74f578ae09616ba470
 header {
     display: block;
     height: 300px;
@@ -56,24 +47,10 @@ header .inner-header .gnb ul li a {
     width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-
-.gnb:after{
-    display:block;
-    content:'';
-    clear:both;
-
-}
->>>>>>> 7b90471d234c3b14926bed74f578ae09616ba470
 .gnb>li:first-child {
     height: 15px;
     top: 15px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 7b90471d234c3b14926bed74f578ae09616ba470
 .gnb a {
     text-align: center;
     font-weight: 700;
@@ -132,20 +109,12 @@ header .inner-header .gnb ul li a {
     margin: 0;
     line-height: 1.5;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 7b90471d234c3b14926bed74f578ae09616ba470
 .gnb .depth_1 li span {
     padding-top: 15px;
     float: left;
     font-weight: 700;
     font-size: 14px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 7b90471d234c3b14926bed74f578ae09616ba470
 .gnb .depth_1 li .depth_2 li {
     margin: 0;
     color: #9b9a9a;
@@ -158,10 +127,6 @@ header .inner-header .gnb ul li a {
 .gnb .depth_1 li .depth_2 li a::before{
     content: "- ";
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 7b90471d234c3b14926bed74f578ae09616ba470
 header .inner-header .gnb ul .cleaerLine {
     border-left: none;
 }
