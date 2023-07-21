@@ -1,0 +1,56 @@
+/* reset css */
+@import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
+/* base css */
+@import url(./base.css);
+
+.content .wrap {
+    margin: 30px auto;
+    width: 80%;
+    border: 1px solid #00000020;
+}
+
+.content .wrap .textArea{
+    margin: 100px 50px;
+    font-size: 30px;
+}
+
+.content .wrap .textArea h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.content .wrap .textArea p {
+    margin: 30px 0;
+}
+.content .wrap .FaQArea {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.content .wrap .FaQArea .left {
+    flex: 1;
+}
+.content .wrap .FaQArea .left li {
+    /* border: 1px solid #000; */
+    padding-left: 20px;
+    font-size: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #0000003c;
+    border-bottom: 1px solid #0000003c;
+}
+.content .wrap .FaQArea .right {
+    border-top: 3px solid #788598;
+    flex: 2;
+    margin-left: 100px;
+}
+.content .wrap .FaQArea .right li{
+    background: url(https://com2us.recruiter.co.kr/resources-2.0.3a/css/appsite/images/iconQna.png) no-repeat 0px 40px;
+    font-size: 17px;
+    text-indent: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #0000003c;
+}
+
